@@ -129,7 +129,7 @@ class SortableMenuExtension extends DataExtension
             if (isset($extraInfo['Title'])) {
                 $fieldTitle = 'Show in "'.$extraInfo['Title'].'"?';
             }
-            $fields->insertAfter(CheckboxField::create($fieldName, $fieldTitle), 'ShowInMenus');
+            $fields->insertAfter('ShowInMenus', CheckboxField::create($fieldName, $fieldTitle));
         }
     }
 
