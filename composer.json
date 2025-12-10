@@ -1,6 +1,6 @@
 
 {
-    "name": "cyber-duck/silverstripe-treehugger",
+    "name": "symbiote/silverstripe-treehugger",
     "description": "Add additional menus (such as footer, sidebars) programmatically that can be managed by CMS users nicely on the SiteConfig or Multisite view.",
     "type": "silverstripe-vendormodule",
     "keywords": [
@@ -49,9 +49,9 @@
             "dev-master": "5.0.x-dev"
         }
     },
-    "replace": {
-        "symbiote/silverstripe-treehugger": "self.version"
-    },
+	"replace": {
+		"silbinarywolf/silverstripe-treehugger": "self.version"
+	},
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
